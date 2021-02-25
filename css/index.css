@@ -7,38 +7,27 @@ main{
     background-image: url(media/BG1.png);
     background-repeat: no-repeat;
     background-size: 100vw auto;
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 article{
-    display: flex;
     flex-direction: column;
+    display: flex;
     padding: 25px;
 }
 
-.entrada{
-    display: flex;
-    flex-direction: column;
-
+button{
+    background-color: rgb(245, 165, 245);
+    border-color:rgb(18, 129, 194);
+    border-radius: 5px;
+    color:  white;
+    padding: 6px;   
 }
-
-.entrada input{
-    margin: 8px;
-    text-align: center;
-}
- button{
-     background-color: rgb(245, 165, 245);
-     color:  white;
-     padding: 6px;   
-     border-radius: 5px;
-     border-color:rgb(18, 129, 194);
- }
 
 button:hover{
     color: rgb(18, 129, 194);
 }
-
 
 img{
     height: auto;
@@ -47,4 +36,14 @@ img{
 
 td{
     padding: 5px;
+}
+
+.entrada{
+    flex-direction: column;
+    display: flex;
+}
+
+.entrada input{
+    text-align: center;
+    margin: 8px;
 }

@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta charset="UFT-8">
         <title>Login</title>
         <link rel="stylesheet" type="text/css" href= "css/index.css">
+        <link rel="shortcut icon" href="css/media/GATOBRANCO.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <script src="js/index.js"></script>
     </head>
-
     <body>
         <main>
             <article>
                 <img src="css/media/GATOBRANCO.png">
                 <div class="entrada">
-                    <input type="text" placeholder="Usuário">
-                    <input type="password" placeholder="Senha">
+                    <input type="text" placeholder="Usuário" id="usr">
+                    <input type="password" placeholder="Senha" id="psw">
                 </div> 
                 <div class="botao">
-                    <button type="submit">Login</button>
-                    <button type="submit">Registrar</button>
+                    <button type="submit" onclick="login()">Login</button>
+                    <button type="button" onclick="construcao()">Registrar</button>
                 </div>
-    
                 <div class="lembrar">
                     <table>
                         <td><input type="checkbox"></td>
@@ -29,10 +28,6 @@
                     </table>
                 </div>
             </article>
-        </main>
-        
-        
+        </main>        
     </body>
-
 </html>
-
