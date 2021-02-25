@@ -1,0 +1,50 @@
+*{    
+    font-family: 'DotGothic16', sans-serif;
+    margin: auto;
+}
+
+main{
+    background-image: url(media/BG1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    height: 100vh;
+    display: flex;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.entrada input{
+    margin: 8px;
+    text-align: center;
+}
+ button{
+     background-color: rgb(245, 165, 245);
+     color:  white;
+     padding: 6px;   
+     border-radius: 5px;
+     border-color:rgb(18, 129, 194);
+ }
+
+button:hover{
+    color: rgb(18, 129, 194);
+}
+
+
+img{
+    height: auto;
+    width: 200px;
+}
+
+td{
+    padding: 5px;
+}
